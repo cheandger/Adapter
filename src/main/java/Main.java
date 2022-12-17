@@ -1,8 +1,11 @@
 public class Main {
 
-    public static void main(String[] args) {
+            public static void main(String[] args) {
 
-        Usb cardReader = new USBCardReader(new MemoryCard());
-        cardReader.connectWithUsbCable();
-    }
-}
+                IUSBReader cardReader = new USBAdapterCardReader(new MemoryCard());
+                cardReader.usbReadingData();
+
+            }
+        }
+
+
