@@ -19,9 +19,12 @@ public class MemoryCard implements IAttantion {
         System.out.println("The card has inserted successfully!");
     }
 
-    public ArrayList<Integer> getData() {
+    public ArrayList<Integer> getData() {//we have a memory card, but we can read the data
+                                         //only by adapter.
         return data;
     }
+
+
 
     @Override
     public void readDescribe() {
