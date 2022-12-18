@@ -13,9 +13,7 @@ public class USBAdapterCardReader implements IUSBReader {
 
     @Override
     public String usbReadingData() {//Let's suppose, that we need a String view of this data for the next steps...
-                                    //so, our adapter will transform the input data to String type, and we can read it
-
-        memoryCard.readDescribe();
+                                    //so, our adapter will transform the output data to String type, and we can read it
 
         memoryCard.insert();
 

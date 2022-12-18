@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
-public class MemoryCard implements IAttantion {
+public class MemoryCard  {
 
 
-    ArrayList<Integer> data;
+ private final    ArrayList<Integer> data;
 
     MemoryCard() {
         this.data = new ArrayList<>();
@@ -25,12 +25,6 @@ public class MemoryCard implements IAttantion {
     }
 
 
-
-    @Override
-    public void readDescribe() {
-        System.out.println("There is a data file on this disc" +
-                "try to use the usbAdapter to read it" + "\n");
-
     }
-}
+
 
